@@ -4,18 +4,18 @@ import NetworkGraph2 from "./components/NetworkGraph2"
 function App() {
   return (
     <div>
-      <header><h1>アプリケーションヘッダー</h1></header>
+      <header><h1>ヘッダー</h1></header>
       
       <div className="container">
         <div className="select-container">
-        <h1>selectbutton作成予定</h1>
+        <h1>セレクトボタン</h1>
         </div>
 
         <div className="main-container">
-          <div>
+          <div className="vis-container">
             <NetworkGraph1 />
           </div>
-          <div>
+          <div className="book-container">
             <NetworkGraph2 />
           </div>
         </div>
